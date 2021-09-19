@@ -12,6 +12,7 @@ public class Main {
         System.out.printf("Tekst sformatowany: %s, Int: %d, Float: %f! \n", "Hello", 1, 1.1);
         Date date = new Date();
         System.out.printf("%tT%n", date);
+        System.out.printf("Godzina: %tH, Minuta: %tM, Sekundy: %tS", date, date, date);
 
 
     }
